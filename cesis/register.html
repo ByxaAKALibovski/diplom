@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dop/css/main.css">
+    <link rel="stylesheet" href="dop/css/media.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="head__text">Регистрация</h1>
+        <form action="dop/php/register.php" method="post" class="form__rl">
+            <input type="text" name="nik" placeholder="Придумайте ник..." required>
+            <input type="email" name="email" placeholder="Введите Email..." required>
+            <input type="password" name="password" placeholder="Придумайте пароль..." required>
+            <input type="password" name="password" placeholder="Повторите пароль..." required>
+            <button type="submit">Зарегистрироваться</button>
+            <a href="login.html">Войти</a>
+        </form>
+    </div>
+</body>
+</html>
